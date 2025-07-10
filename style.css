@@ -41,3 +41,8 @@ nav{
     size: 3em;
     
  }
+ .action{
+    display: flex;
+   justify-content: space-between;
+   margin: 150px 300px 50px 300px;
+}
