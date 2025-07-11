@@ -1,29 +1,42 @@
 .btn-primary{
    background-color: #4E47FF;
-   width: 20px;
+   width: 25px;
    height: 5px;
    color: white;
-   border-radius: 5px;
-   padding:10px 20px ;
+   border-radius: 6px;
+   padding: 15px 20px ;
    text-align: center;
    border: 2 2 2 2;
    text-decoration: none;
+   justify-content: flex-end;
+   font-size: x-small;
+   
+}
+.heading{
+    max-width: 400px;
+    height: 250px;
+    text-align: center;
+    margin: 100px 300px 0px 450px;
 }
 .background{
     background-image: url(./Assets/Hero-bg.png);
     background-position:top left, bottom right;
     background-repeat: no-repeat;
+
 }
 nav{
     display: flex;
     justify-content: space-between;
-    max-width: 1140px;
-    max-height: 150px;
     margin: 0 300px 50px 300px;
+    
 }
  section{
      text-align: center;
      margin-top: 100px;
+ }
+ .light-text{
+    color: #8987A1;
+    text-align: left;
  }
  h3{
     font-weight: bold;
@@ -39,12 +52,7 @@ nav{
    justify-content: space-between;
    margin: 150px 300px 50px 300px;
 }
-.heading{
-    max-width: 400px;
-    height: 200px;
-    text-align: center;
-    margin: 20px 300px 0px 550px;
-}
+
 .productive-user{
     background-color: #dddce5;
     margin: 20px 300px 50px 300px;
@@ -52,6 +60,10 @@ nav{
 .statistics-title, .users-say{
     text-align: center;
     margin-top: 100px;
+}
+.action-sub{
+
+text-align: left;
 }
 .numbers-tag {
     display: flex;
@@ -85,14 +97,26 @@ nav{
     margin: 5px 50px 50px 100px;
     text-decoration: none;
 }
+.focus-betterr{
+    text-align:center
+    margin: 50px 300px 100px 400px;
+}
 .h1{
     color: #4E47FF;
     font-weight: bolder;
     size: 4em;
     text-align: center;
 }
-.footer{
+
+.logo{
+    color: blue;
     text-align: center;
-    margin: 20px 300px 50px 600px;
-    margin-left: 400px;
+    size: 8em;
+}
+.footer, .footer-text, .links{
+    text-align: center;
+    color: #8987A1;
+   text-decoration: none;
+   justify-content: space-around;
+    
 }
