@@ -7,6 +7,7 @@
    padding:10px 20px ;
    text-align: center;
    border: 2 2 2 2;
+   text-decoration: none;
    
  
 }
@@ -45,4 +46,20 @@ nav{
     display: flex;
    justify-content: space-between;
    margin: 150px 300px 50px 300px;
+}
+.heading{
+    max-width: 905px;
+    height: 150px;
+}
+.productive-user{
+    background-color: #dddce5;
+    margin: 20px 300px 20px 300px;
+}
+.statistics-title{
+    text-align: center;
+}
+.numbers-tag{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
 }
