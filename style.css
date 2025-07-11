@@ -9,6 +9,8 @@
    border: 2 2 2 2;
    text-decoration: none;
    font-size: small;
+   cursor: pointer;
+   
 }
 .heading{
     max-width: 450px;
