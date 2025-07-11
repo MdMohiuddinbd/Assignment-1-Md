@@ -29,6 +29,11 @@ nav{
     justify-content: space-between;
     margin: 30px 300px 50px 300px;
 }
+.up-logo{
+    color: #4E47FF;
+    font-weight: 800;
+    font-size:larger
+}
  section{
      text-align: center;
      margin-top: 100px;
@@ -70,11 +75,6 @@ nav{
     font-weight: bold;
     font-size: 2em;
     margin-bottom: -10px;
- }
- h4{
-    color: #4E47FF;
-    font-weight: bolder;
-    size: 3em;
  }
 .statistics-title, .users-say{
     text-align: center;
