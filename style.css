@@ -8,14 +8,11 @@
    text-align: center;
    border: 2 2 2 2;
    text-decoration: none;
-   
- 
 }
 .background{
     background-image: url(./Assets/Hero-bg.png);
     background-position:top left, bottom right;
     background-repeat: no-repeat;
-  
 }
 nav{
     display: flex;
@@ -23,7 +20,6 @@ nav{
     max-width: 1140px;
     max-height: 150px;
     margin: 0 300px 50px 300px;
-
 }
  section{
      text-align: center;
@@ -32,15 +28,11 @@ nav{
  h3{
     font-weight: bold;
     font-size: 2em;
-    
-
  }
-
  h4{
     color: #4E47FF;
     font-weight: bolder;
     size: 3em;
-    
  }
  .action{
     display: flex;
@@ -48,18 +40,59 @@ nav{
    margin: 150px 300px 50px 300px;
 }
 .heading{
-    max-width: 905px;
-    height: 150px;
+    max-width: 400px;
+    height: 200px;
+    text-align: center;
+    margin: 20px 300px 0px 550px;
 }
 .productive-user{
     background-color: #dddce5;
-    margin: 20px 300px 20px 300px;
+    margin: 20px 300px 50px 300px;
 }
-.statistics-title{
+.statistics-title, .users-say{
     text-align: center;
+    margin-top: 100px;
 }
-.numbers-tag{
+.numbers-tag {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
+}
+.comment-primary{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly; 
+    margin: 0px 300px 50px 300px; 
+    padding: 10px 30px 5px 5px;
+}
+.yellow-star{
+    color: yellow;
+    text-align: left;
+}
+.in-touch{
+    display: flex;
+     text-align: center;
+     justify-content: space-evenly; 
+    margin: 0px 300px 50px 300px; 
+}
+.left-title{
+    text-align: justify;
+    font-size: 3em;
+}
+.links{
+    justify-content: space-evenly; 
+    text-align: center;
+    margin: 5px 50px 50px 100px;
+    text-decoration: none;
+}
+.h1{
+    color: #4E47FF;
+    font-weight: bolder;
+    size: 4em;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    margin: 20px 300px 50px 600px;
+    margin-left: 400px;
 }
