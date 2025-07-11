@@ -8,79 +8,91 @@
    text-align: center;
    border: 2 2 2 2;
    text-decoration: none;
-   justify-content: flex-end;
-   font-size: x-small;
-   
+   font-size: small;
 }
 .heading{
     max-width: 400px;
-    height: 250px;
+    height: 100px;
     text-align: center;
-    margin: 100px 300px 0px 450px;
+    margin: 100px 300px 0px 550px;
 }
 .background{
     background-image: url(./Assets/Hero-bg.png);
-    background-position:top left, bottom right;
+    background-size: cover;
     background-repeat: no-repeat;
 
-}
+    }
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0 300px 50px 300px;
-    
+    margin: 30px 300px 50px 300px;
 }
  section{
      text-align: center;
      margin-top: 100px;
  }
- .light-text{
+ .productive-user{
+    background-color: lightcyan ;
+    margin: 20px 300px 200px 300px;
+    border: 10px;
+  
+     }
+ .statistics{
+    color: blue;
+    font-size: 3em;
+    font-weight: bolder;
+    margin-bottom: -10px;
+     }
+ .sub-title{
+     color: #8987A1;
+     padding: 5px;
+     margin: 1px;
+ }
+  .numbers-tag {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: -50px;
+}
+.light-text{
     color: #8987A1;
     text-align: left;
+    width: 300px;
  }
+  .action{
+    display: flex;
+   justify-content: space-between;
+   margin: 150px 300px 50px 300px;
+}
  h3{
     font-weight: bold;
     font-size: 2em;
+    margin-bottom: -10px;
  }
  h4{
     color: #4E47FF;
     font-weight: bolder;
     size: 3em;
  }
- .action{
-    display: flex;
-   justify-content: space-between;
-   margin: 150px 300px 50px 300px;
-}
-
-.productive-user{
-    background-color: #dddce5;
-    margin: 20px 300px 50px 300px;
-}
 .statistics-title, .users-say{
     text-align: center;
     margin-top: 100px;
 }
 .action-sub{
-
 text-align: left;
-}
-.numbers-tag {
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-}
-.comment-primary{
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly; 
-    margin: 0px 300px 50px 300px; 
-    padding: 10px 30px 5px 5px;
 }
 .yellow-star{
     color: yellow;
     text-align: left;
 }
+.comment-primary{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly; 
+    margin: 10px 300px 50px 300px; 
+    padding: 10px 20px 5px 5px;
+    justify-items: right;
+    }
 .in-touch{
     display: flex;
      text-align: center;
